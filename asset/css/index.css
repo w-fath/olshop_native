@@ -1,0 +1,21 @@
+.card-title-link {
+    color: blue;
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+}
+
+.card-title-link:hover {
+    color: #e601a1;
+    text-decoration: underline;
+}
+.card-text {
+    font-family: 'Noto Serif', serif;
+}
+.card-text-title{
+    font-family: 'Noto Serif', serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.card-text-deskripsi{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+}

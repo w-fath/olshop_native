@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    background-color: #adb5bd;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+/* Untuk tampilan desktop, tampilkan tombol dengan teks */
+.d-md-inline-flex {
+    display: inline-flex;
+}
+
+/* Untuk tampilan mobile, tampilkan hanya ikon */
+.d-md-none {
+    display: none;
+}
+
+/* Tampilkan tombol dengan teks di mobile */
+@media (max-width: 767.98px) {
+    .d-md-none {
+        display: inline-flex;
+    }
+    .d-md-inline-flex {
+        display: none;
+    }
+}
